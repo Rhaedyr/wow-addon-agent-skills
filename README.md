@@ -15,7 +15,7 @@ These are **not** a full Lua API dump. For live signatures, diffs, linting, and 
 1. Copy the relevant `*/SKILL.md` files (or the whole tree) into your project, e.g. `agent-skills/` and optionally `.cursor/skills/`.
 2. Point `AGENTS.md` at them.
 3. Install hated-wow-mcp in Cursor / Grok Bot and set `WOW_DEFAULT_FLAVOR` appropriately.
-4. After a Forever client session, record `GetBuildInfo()` / Interface in `forever/SKILL.md` and any project TOC.
+4. Forever **1.60.1** Interface is confirmed as **`16001`** (build 69913) — keep `forever/SKILL.md` and project TOCs in sync with live `GetBuildInfo()` dumps.
 
 ## Seeded from
 

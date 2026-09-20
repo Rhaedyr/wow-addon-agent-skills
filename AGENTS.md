@@ -9,3 +9,8 @@ Read the skill pack that matches the target client before editing Lua/TOC:
 For API truth (signatures, cross-flavor availability, lint), use the **hated-wow-mcp** tools with the correct `flavor` (`mainline` or `forever`). Do not invent Classic Era APIs for Forever.
 
 See [README.md](README.md).
+
+## Forever Interface (confirmed)
+
+Forever **1.60.1** (build **69913**, `Sep 17 2026`) uses TOC `## Interface: **16001**`. See [`forever/SKILL.md`](forever/SKILL.md) and [`docs/FOREVER_COMPAT_REPORT.md`](docs/FOREVER_COMPAT_REPORT.md). Do not keep `120100` as a Forever placeholder; Lua may still be Midnight-like.
+
